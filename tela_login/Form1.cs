@@ -22,6 +22,12 @@ namespace tela_login
         private void btnCadLogin_Click(object sender, EventArgs e)
         {
             string campoLogin = txtEmail.Text;
+            string campoSenha = txtSenha.Text;
+
+            MessageBox.Show(
+                $"Login: {campoLogin}");
+
+
             int controleLinhasAfetadas = 0;
 
             string dadosConexao = "server=localhost;user=root;password=;database=ecoeficiencia";

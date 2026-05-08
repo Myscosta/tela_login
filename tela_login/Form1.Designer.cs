@@ -37,6 +37,8 @@
             this.btnCadLogin = new System.Windows.Forms.Button();
             this.lbLogin = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.dgvVisualizar = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVisualizar)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmail
@@ -111,11 +113,21 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // dgvVisualizar
+            // 
+            this.dgvVisualizar.BackgroundColor = System.Drawing.Color.LightGreen;
+            this.dgvVisualizar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVisualizar.Location = new System.Drawing.Point(17, 288);
+            this.dgvVisualizar.Name = "dgvVisualizar";
+            this.dgvVisualizar.Size = new System.Drawing.Size(330, 150);
+            this.dgvVisualizar.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 450);
+            this.Controls.Add(this.dgvVisualizar);
             this.Controls.Add(this.lbLogin);
             this.Controls.Add(this.btnCadLogin);
             this.Controls.Add(this.btnLogin);
@@ -126,6 +138,7 @@
             this.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVisualizar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,6 +154,7 @@
         private System.Windows.Forms.Button btnCadLogin;
         private System.Windows.Forms.Label lbLogin;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.DataGridView dgvVisualizar;
     }
 }
 
