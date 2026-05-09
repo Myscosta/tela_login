@@ -38,6 +38,7 @@
             this.lbLogin = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dgvVisualizar = new System.Windows.Forms.DataGridView();
+            this.btnConsultar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVisualizar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,7 +81,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(83, 198);
+            this.btnLogin.Location = new System.Drawing.Point(17, 207);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(84, 34);
             this.btnLogin.TabIndex = 4;
@@ -90,7 +91,7 @@
             // btnCadLogin
             // 
             this.btnCadLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadLogin.Location = new System.Drawing.Point(225, 198);
+            this.btnCadLogin.Location = new System.Drawing.Point(244, 207);
             this.btnCadLogin.Name = "btnCadLogin";
             this.btnCadLogin.Size = new System.Drawing.Size(103, 34);
             this.btnCadLogin.TabIndex = 5;
@@ -122,11 +123,23 @@
             this.dgvVisualizar.Size = new System.Drawing.Size(330, 150);
             this.dgvVisualizar.TabIndex = 8;
             // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultar.Location = new System.Drawing.Point(118, 207);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(120, 34);
+            this.btnConsultar.TabIndex = 9;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 450);
+            this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.dgvVisualizar);
             this.Controls.Add(this.lbLogin);
             this.Controls.Add(this.btnCadLogin);
@@ -155,6 +168,7 @@
         private System.Windows.Forms.Label lbLogin;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridView dgvVisualizar;
+        private System.Windows.Forms.Button btnConsultar;
     }
 }
 
