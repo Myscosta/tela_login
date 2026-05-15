@@ -39,30 +39,34 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.dgvVisualizar = new System.Windows.Forms.DataGridView();
             this.btnConsultar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lbNome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVisualizar)).BeginInit();
             this.SuspendLayout();
             // 
             // txtEmail
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(83, 99);
+            this.txtEmail.Location = new System.Drawing.Point(83, 103);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(245, 31);
+            this.txtEmail.Size = new System.Drawing.Size(297, 31);
             this.txtEmail.TabIndex = 0;
             // 
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(83, 151);
+            this.txtSenha.Location = new System.Drawing.Point(83, 146);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(245, 31);
+            this.txtSenha.Size = new System.Drawing.Size(297, 31);
             this.txtSenha.TabIndex = 1;
             // 
             // lbEmail
             // 
             this.lbEmail.AutoSize = true;
             this.lbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEmail.Location = new System.Drawing.Point(13, 106);
+            this.lbEmail.Location = new System.Drawing.Point(12, 110);
             this.lbEmail.Name = "lbEmail";
             this.lbEmail.Size = new System.Drawing.Size(64, 20);
             this.lbEmail.TabIndex = 2;
@@ -72,7 +76,7 @@
             // 
             this.lbSenha.AutoSize = true;
             this.lbSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSenha.Location = new System.Drawing.Point(11, 158);
+            this.lbSenha.Location = new System.Drawing.Point(11, 153);
             this.lbSenha.Name = "lbSenha";
             this.lbSenha.Size = new System.Drawing.Size(66, 20);
             this.lbSenha.TabIndex = 3;
@@ -80,8 +84,8 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(17, 207);
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(296, 198);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(84, 34);
             this.btnLogin.TabIndex = 4;
@@ -90,12 +94,12 @@
             // 
             // btnCadLogin
             // 
-            this.btnCadLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadLogin.Location = new System.Drawing.Point(244, 207);
+            this.btnCadLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadLogin.Location = new System.Drawing.Point(133, 198);
             this.btnCadLogin.Name = "btnCadLogin";
-            this.btnCadLogin.Size = new System.Drawing.Size(103, 34);
+            this.btnCadLogin.Size = new System.Drawing.Size(118, 34);
             this.btnCadLogin.TabIndex = 5;
-            this.btnCadLogin.Text = "Cadastre-se";
+            this.btnCadLogin.Text = "Cadastrar";
             this.btnCadLogin.UseVisualStyleBackColor = true;
             this.btnCadLogin.Click += new System.EventHandler(this.btnCadLogin_Click);
             // 
@@ -103,7 +107,7 @@
             // 
             this.lbLogin.AutoSize = true;
             this.lbLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLogin.Location = new System.Drawing.Point(167, 32);
+            this.lbLogin.Location = new System.Drawing.Point(165, 18);
             this.lbLogin.Name = "lbLogin";
             this.lbLogin.Size = new System.Drawing.Size(52, 16);
             this.lbLogin.TabIndex = 7;
@@ -118,15 +122,15 @@
             // 
             this.dgvVisualizar.BackgroundColor = System.Drawing.Color.LightGreen;
             this.dgvVisualizar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVisualizar.Location = new System.Drawing.Point(17, 288);
+            this.dgvVisualizar.Location = new System.Drawing.Point(17, 269);
             this.dgvVisualizar.Name = "dgvVisualizar";
-            this.dgvVisualizar.Size = new System.Drawing.Size(330, 150);
+            this.dgvVisualizar.Size = new System.Drawing.Size(363, 207);
             this.dgvVisualizar.TabIndex = 8;
             // 
             // btnConsultar
             // 
             this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(118, 207);
+            this.btnConsultar.Location = new System.Drawing.Point(228, 496);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(120, 34);
             this.btnConsultar.TabIndex = 9;
@@ -134,11 +138,55 @@
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(15, 198);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(84, 34);
+            this.btnLimpar.TabIndex = 10;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Location = new System.Drawing.Point(38, 496);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(120, 34);
+            this.btnEditar.TabIndex = 11;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // txtNome
+            // 
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(83, 56);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(297, 31);
+            this.txtNome.TabIndex = 12;
+            // 
+            // lbNome
+            // 
+            this.lbNome.AutoSize = true;
+            this.lbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNome.Location = new System.Drawing.Point(11, 63);
+            this.lbNome.Name = "lbNome";
+            this.lbNome.Size = new System.Drawing.Size(60, 20);
+            this.lbNome.TabIndex = 13;
+            this.lbNome.Text = "Nome:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 450);
+            this.ClientSize = new System.Drawing.Size(435, 553);
+            this.Controls.Add(this.lbNome);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.dgvVisualizar);
             this.Controls.Add(this.lbLogin);
@@ -169,6 +217,10 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridView dgvVisualizar;
         private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.Label lbNome;
     }
 }
 
