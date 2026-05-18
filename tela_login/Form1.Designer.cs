@@ -51,7 +51,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(83, 103);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(297, 31);
+            this.txtEmail.Size = new System.Drawing.Size(462, 31);
             this.txtEmail.TabIndex = 0;
             // 
             // txtSenha
@@ -59,7 +59,7 @@
             this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenha.Location = new System.Drawing.Point(83, 146);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(297, 31);
+            this.txtSenha.Size = new System.Drawing.Size(462, 31);
             this.txtSenha.TabIndex = 1;
             // 
             // lbEmail
@@ -85,7 +85,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(296, 198);
+            this.btnLogin.Location = new System.Drawing.Point(436, 198);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(84, 34);
             this.btnLogin.TabIndex = 4;
@@ -95,7 +95,7 @@
             // btnCadLogin
             // 
             this.btnCadLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadLogin.Location = new System.Drawing.Point(133, 198);
+            this.btnCadLogin.Location = new System.Drawing.Point(228, 198);
             this.btnCadLogin.Name = "btnCadLogin";
             this.btnCadLogin.Size = new System.Drawing.Size(118, 34);
             this.btnCadLogin.TabIndex = 5;
@@ -107,7 +107,7 @@
             // 
             this.lbLogin.AutoSize = true;
             this.lbLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLogin.Location = new System.Drawing.Point(165, 18);
+            this.lbLogin.Location = new System.Drawing.Point(277, 9);
             this.lbLogin.Name = "lbLogin";
             this.lbLogin.Size = new System.Drawing.Size(52, 16);
             this.lbLogin.TabIndex = 7;
@@ -124,13 +124,13 @@
             this.dgvVisualizar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVisualizar.Location = new System.Drawing.Point(17, 269);
             this.dgvVisualizar.Name = "dgvVisualizar";
-            this.dgvVisualizar.Size = new System.Drawing.Size(363, 207);
+            this.dgvVisualizar.Size = new System.Drawing.Size(528, 207);
             this.dgvVisualizar.TabIndex = 8;
             // 
             // btnConsultar
             // 
             this.btnConsultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultar.Location = new System.Drawing.Point(228, 496);
+            this.btnConsultar.Location = new System.Drawing.Point(400, 496);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(120, 34);
             this.btnConsultar.TabIndex = 9;
@@ -141,7 +141,7 @@
             // btnLimpar
             // 
             this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(15, 198);
+            this.btnLimpar.Location = new System.Drawing.Point(38, 198);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(84, 34);
             this.btnLimpar.TabIndex = 10;
@@ -165,7 +165,7 @@
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.Location = new System.Drawing.Point(83, 56);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(297, 31);
+            this.txtNome.Size = new System.Drawing.Size(462, 31);
             this.txtNome.TabIndex = 12;
             // 
             // lbNome
@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 553);
+            this.ClientSize = new System.Drawing.Size(603, 553);
             this.Controls.Add(this.lbNome);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btnEditar);
